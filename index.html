@@ -3,10 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href=""> 
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/main.js"></script>
   <title>Language Survey </title>
 </head>
-<body>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>
+         Which language best suits you?
+          <small class="text-muted">Epic language survey:</small>
+        </h1>
+      </div>
+    </div> 
+
+    <form id="survey">
+      <div class="form-group">
+        <label for="name">What is your name?</label>
+        <input type="text" name="name" id="name" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="age">What is your age?</label>
+        <input type="text" name="age" id="age" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="netflix">How much do you like Netflix on a scale of 1-10? </label>
+        <input type="number" name="netflix" id="netflix" min=1 max=10 class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="fruit">On a scale of 1-10 how much do you like bananas?</label>
+        <input type="number" name="fruit" id="fruit" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="travel">On a scale of 1-10 how much to you enjoy traveling?</label>
+        <input type="number" name="travel" id="travel">
+      </div>
+    </form>
+
+    
   
-</body>
+  </body>
 </html>
