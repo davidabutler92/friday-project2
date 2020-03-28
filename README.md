@@ -12,7 +12,7 @@
 * Make a new directory to clone the repo in.
 * Clone repository @ [Click here](https://github.com/davidabutler92/friday-project2.git)
 * Open friday-project2 (code .) in terminal.
-* To see on gh-pages [Click here]()  
+* To see on gh-pages [Click here](https://davidabutler92.github.io/friday-project2/)  
 * 
 
 ## Known Bugs 
@@ -26,6 +26,8 @@
 #### CSS
 #### Git 
 #### Bootstrap
+#### Javascript
+#### jQuery 
 
 #### Copyright (c) 2020 **_{David Butler}_**
 #### The software is licensed under the MIT license [Click here](LICENSE.md)
