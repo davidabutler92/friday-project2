@@ -32,3 +32,6 @@ body {
   background: url(https://i.stack.imgur.com/ZZXg1.jpg);
 }
 
+#copyright {
+  text-align: center;
+}
