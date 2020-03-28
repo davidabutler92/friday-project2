@@ -10,6 +10,14 @@ $(document).ready(function() {
     var travelRate = parseInt($("#travel").val());
     var total = netflixRate + fruitRate + travelRate; 
 
-
+    if(total <= 10) {
+      $("#result").text("Javascript");
+    } else if (total >= 11 && total <=20) {
+      $("#result").text("Ruby");
+    } else if (total >=21 && total <=30) {
+      $("#result").text("Python");
+    } else {
+      $("#result").text("");
+    }    
   });
 });
