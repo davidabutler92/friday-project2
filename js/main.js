@@ -18,6 +18,9 @@ $(document).ready(function() {
       $("#result").text("Python");
     } else {
       $("#result").text("");
-    }    
+    }   
+    
+    $("#username").text(userName);
+    $(".results").show();
   });
 });

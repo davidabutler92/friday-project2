@@ -18,34 +18,37 @@
         </h1>
       </div>
     </div> 
+    <div class="container">
+      <form id="survey">
+        <div class="form-group">
+          <label for="name">What is your name?</label>
+          <input type="text" name="name" id="name" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="age">What is your age?</label>
+          <input type="text" name="age" id="age" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="netflix">How much do you like Netflix on a scale of 1-10? </label>
+          <input type="number" name="netflix" id="netflix" min=1 max=10 class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="fruit">On a scale of 1-10 how much do you like bananas?</label>
+          <input type="number" name="fruit" id="fruit" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="travel">On a scale of 1-10 how much to you enjoy traveling?</label>
+          <input type="number" name="travel" id="travel" class="form-control">
+        </div>
+        
 
-    <form id="survey">
-      <div class="form-group">
-        <label for="name">What is your name?</label>
-        <input type="text" name="name" id="name" class="form-control">
+          <button class="btn btn-default"type="submit">Submit</button>
+        
+      </form>
+    
+      <div class="results">
+        <p>Based on your survey <span id="username"></span> we recommened you learn: <span id="result"></span></p>
       </div>
-      <div class="form-group">
-        <label for="age">What is your age?</label>
-        <input type="text" name="age" id="age" class="form-control">
-      </div>
-      <div class="form-group">
-        <label for="netflix">How much do you like Netflix on a scale of 1-10? </label>
-        <input type="number" name="netflix" id="netflix" min=1 max=10 class="form-control">
-      </div>
-      <div class="form-group">
-        <label for="fruit">On a scale of 1-10 how much do you like bananas?</label>
-        <input type="number" name="fruit" id="fruit" class="form-control">
-      </div>
-      <div class="form-group">
-        <label for="travel">On a scale of 1-10 how much to you enjoy traveling?</label>
-        <input type="number" name="travel" id="travel" class="form-control">
-      </div>
-
-      <button class="btn btn-default"type="submit">Submit</button>
-    </form>
-
-    <div>
-      <p>Based on your survey we recommened you learn: <span id="result"></span></p>
     </div>
 
     
