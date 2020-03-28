@@ -1,3 +1,34 @@
 .results {
   display: none;
 }
+
+h1 {
+  text-align: center;
+}
+
+#name{
+  width: 30%;
+}
+
+
+#age{
+  width: 5%;
+}
+
+
+#netflix{
+  width: 5%;
+}
+
+#fruit{
+  width: 5%;
+}
+
+#travel{
+  width: 5%;
+}
+
+body {
+  background: url(https://i.stack.imgur.com/ZZXg1.jpg);
+}
+
