@@ -8,7 +8,13 @@ $(document).ready(function() {
     var netflixRate = parseInt($("#netflix").val());
     var fruitRate = parseInt($("#fruit").val());
     var travelRate = parseInt($("#travel").val());
-    var total = netflixRate + fruitRate + travelRate; 
+    var total = netflixRate + fruitRate + travelRate;
+    
+    // console.log(userName);
+    // console.log(userAge);
+    // console.log(netflixRate);
+    
+    
 
     if(total <= 10) {
       $("#result").text("Javascript");
